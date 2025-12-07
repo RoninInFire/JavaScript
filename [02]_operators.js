@@ -35,3 +35,17 @@ console.log(age >= vasya);
 console.log(age < vasya);
 console.log(age <= vasya);
 console.log(age == vasya);
+
+// Порядок операторов      https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table
+               //    1    3    2 
+const isSuited = 100 - 10 > 90 - 5;
+console.log(isSuited);
+
+const a = (6 + 10) / 2;
+console.log(a);
+
+let b;
+let c;
+c = b = 100 + 50;
+console.log(c);
+console.log(b);
