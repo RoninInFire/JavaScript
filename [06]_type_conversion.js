@@ -1,3 +1,5 @@
+// Преобразование типов
+
 const age = '18';
 console.log(age + 5);
 console.log(Number(age) + 5);
@@ -13,3 +15,15 @@ console.log(true + 2);
 
 const a = 2 + '10';
 console.log(a - 10);
+
+
+
+console.log('-------------------')
+// False из других типов
+console.log(Boolean(0));
+console.log(Boolean(''));
+
+let b; // undefined
+console.log(Boolean(b));
+console.log(Boolean(null));
+console.log(Boolean(Number('string')));
